@@ -1,2 +1,0 @@
-# Miezis.portfolio
-Portfolio
