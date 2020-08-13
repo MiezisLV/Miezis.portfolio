@@ -1,0 +1,97 @@
+.photos img {
+  width: 350px;
+  height: 350px;
+  padding-left: 50px;
+  display: inline-block;
+}
+.photos {
+  display: inline-flex;
+}
+body {
+  padding-left: 5%;
+  padding-right: 5%;
+  font-family: "Times New Roman", Times, serif;
+}
+/* Menu buttons  */
+.container_header {
+  background-color: black;
+}
+div.box.home {
+  margin-left: 30px;
+}
+
+.box a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  padding: 5px 20px;
+  border: 1px solid black;
+}
+.box a.home {
+  background-color: white;
+}
+.box a:hover {
+  background-color: grey;
+}
+.box {
+  /*padding-bottom: 20px;*/
+}
+/*  */
+/* bilžu rāmis */
+table th,
+td {
+  border: 1px solid black;
+  /* background-color: grey; */
+}
+div table.table2 th,
+td {
+  background-color: black;
+  color: white;
+  border-color: white;
+}
+table img {
+  width: 400px;
+}
+/*  */
+/* Mazais apraksts */
+.container {
+  width: 50%;
+  height: 200px;
+  padding-top: 50px;
+}
+.photo1 {
+  width: 250px;
+}
+.footer {
+  background-color: black;
+  color: white;
+  text-align: left;
+  margin-top: 35px;
+}
+footer.h5 {
+  text-align: right;
+}
+div.Acknowledgments {
+  text-align: right;
+}
+.h2::before {
+  content: "Look at this orange box.";
+  background-color: #ffba10;
+  border-color: black;
+  border-style: dotted;
+}
+div.karte {
+  margin-top: 50px;
+  text-align: center;
+}
+.know_more {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  padding: 5px 20px;
+  border: 1px solid black;
+}
+.table2 {
+  margin-top: 20px;
+  margin-left: 300px;
+}
